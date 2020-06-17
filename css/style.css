@@ -1,8 +1,22 @@
 html,
 body,
-main,
 #intro {
     height: 100%;
+}
+
+header {
+    max-height: 5%;
+    height: auto;
+}
+
+main {
+    min-height: 83%;
+    height: auto;
+}
+
+footer {
+    height: auto;
+    max-height: 12%;
 }
 
 #intro {
