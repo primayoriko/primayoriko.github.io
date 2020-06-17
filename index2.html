@@ -17,11 +17,13 @@
     <link rel="stylesheet" href="css/mdb.min.css">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="sidebar/style2.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 </head>
-<body>
-    <!-- Main navigation -->
-    <header>
-        <!--Navbar-->
+<body class="red wrapper">
+    <!-- <header>
         <nav class="navbar navbar-expand-lg navbar-dark indigo fixed-top">
             <div class="container">
                 <div  class="view collapse navbar-collapse">
@@ -68,12 +70,70 @@
         
             </div>    
         </nav>
-        <!--/.Navbar-->
-    </header>
+    </header> -->
+
+    <!-- <div class="wrapper"> -->
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Bootstrap Sidebar</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Dummy Heading</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul>
+        </nav>
+    <!-- </div> -->
 
     <!--Main layout-->
-    <main>
-        <div id="profile" style="min-height: 850px;" class="view mb-5">
+    <div class="indigo">
+        <div id="profile" style="min-height: 850px" class="view mb-5">
             <div class="mask rgba-black-light">
                 <div class="container-fluid row text-center justify-content-center align-items-center h-100">
                     <div class="col-md-12">
@@ -115,58 +175,64 @@
             </div>
         </div>
         
-        <div class="container-fluid">
-            <section id="about-me" class="text-center">
-                <h2 class=" h2-responsive mb-5"><strong>About Me</strong></h2>
+        <div class="blue container">
+            <div id="about-me" style="padding: 0px" class="text-center yellow row">
+                <div class="col-md-3 d-none">
+                    <h1> sadsjadsa </h1>
+                    <h1> sadsjadsa </h1>
+                    <h1> sadsjadsa </h1>
+                    <h1> sadsjadsa </h1>
+                </div>
+                <div class="">
+                    <h2 class=" h2-responsive mb-5"><strong>About Me</strong></h2>
+                    <div class="row d-flex justify-content-center mb-4">
+                        <div class="col-md-10 opacity-40 indigo py-3 px-5 text-white">
+                            <h4 class="mb-3"><strong>My Motto</strong></h4>
+                            <p><i class="fas fa-quote-left"></i> 
+                                Creating and using technology to it's fullest as a way to help, develop, and advance human life. 
+                            <i class="fas fa-quote-right"></i></p>
+                        </div>
+                    </div>
+                
+                    <h4 class="text-center mb-4"><strong>My Interest</strong></h4>
+                    <div class="row justify-content-center">
+                        <div class="card col-md-3 my-1 mx-4">
+                            <i class="fas fa-brain fa-4x blue-text mt-3"></i>
+                            <h4 class="my-4"></strong>AI and ML</strong></h4>
+                            <p>
+                                Artificial Inteligence and also Machine Learning have always been interesting 
+                                and being my favored topics, moreover its has wide application and could be collaborated 
+                                with other fields to create many discoveries that are extraordinarily amazing and useful.
+                            </p>
+                        </div>
 
-                <div class="row d-flex justify-content-center mb-4">
-                    <div class="col-md-10 opacity-40 indigo py-3 px-5 text-white">
-                        <h4 class="mb-3"><strong>My Motto</strong></h4>
-                        <p><i class="fas fa-quote-left"></i> 
-                            Creating and using technology to it's fullest as a way to help, develop, and advance human life. 
-                        <i class="fas fa-quote-right"></i></p>
+                        <div class="card col-md-3 my-1 mx-4">
+                            <i class="fas fa-globe-europe fa-4x blue-text mt-3"></i>
+                            <h4 class="my-4"></strong>Web Dev</strong></h4>
+                            <p>
+                                Web Development is also being favourite subject by many people, include myself, since it's being 
+                                general (cross-platform) media that could be accessed from multiple platform and helps people to 
+                                share it's thought, and undoubtly has made the world more interesting and exciting.  
+                            </p>
+                        </div>
+                
+                        <div class="card col-md-3 my-1 mx-4">
+                            <i class="fas fa-wifi fa-4x blue-text mt-3"></i>
+                            <h4 class="my-4"></strong>Network</strong></h4>
+                            <p>
+                                As the backbone of main world communication and information transmission,
+                                networking is also one of my favourite subjects and also make me feel curious,
+                                maybe many people too, about how information could be distributed around the world
+                                within them.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            
-                <!--Grid row-->
-                <h4 class="text-center mb-4"><strong>My Interest</strong></h4>
-                <div class="row justify-content-center">
-                    <div class="card col-md-3 my-1 mx-4">
-                        <i class="fas fa-brain fa-4x blue-text mt-3"></i>
-                        <h4 class="my-4"></strong>AI and ML</strong></h4>
-                        <p>
-                            Artificial Inteligence and also Machine Learning have always been interesting 
-                            and being my favored topics, moreover its has wide application and could be collaborated 
-                            with other fields to create many discoveries that are extraordinarily amazing and useful.
-                        </p>
-                    </div>
-
-                    <div class="card col-md-3 my-1 mx-4">
-                        <i class="fas fa-globe-europe fa-4x blue-text mt-3"></i>
-                        <h4 class="my-4"></strong>Web Dev</strong></h4>
-                        <p>
-                            Web Development is also being favourite subject by many people, include myself, since it's being 
-                            general (cross-platform) media that could be accessed from multiple platform and helps people to 
-                            share it's thought, and undoubtly has made the world more interesting and exciting.  
-                        </p>
-                    </div>
-            
-                    <div class="card col-md-3 my-1 mx-4">
-                        <i class="fas fa-wifi fa-4x blue-text mt-3"></i>
-                        <h4 class="my-4"></strong>Network</strong></h4>
-                        <p>
-                            As the backbone of main world communication and information transmission,
-                            networking is also one of my favourite subjects and also make me feel curious,
-                            maybe many people too, about how information could be distributed around the world
-                            within them.
-                        </p>
-                    </div>
-                </div>
-            </section>
+            </div>
 
             <hr class="my-5">
 
-            <section id="education" class="text-center">
+            <div id="education" class="text-center">
                 <h2 class=" h2-responsive mb-5"><strong>My Education</strong></h2>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 my-2">
@@ -209,11 +275,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
             <hr class="my-5">
 
-            <section id="experience" class="text-center">
+            <div id="experience" class="text-center">
                 <h2 class=" h2-responsive mb-5"><strong>My Experience</strong></h2>
                 <div class="row justify-content-center">
                     <div id="experience-carousel" class="col-md-10 carousel slide carousel-fade" data-ride="carousel">
@@ -267,11 +333,11 @@
                         </a>
                     </div>
                 </div>
-            </section>
+            </div>
 
             <hr class="my-5">
 
-            <section id="achiviement" class="text-center">
+            <div id="achiviement" class="text-center">
                 <h2 class=" h2-responsive mb-5"><strong>My Achiviements</strong></h2>
                 <div class="row justify-content-center">
                     <div class="col-lg-5 col-md-10 my-1">
@@ -381,52 +447,52 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
             <hr class="my-5">
 
-            <section id="certification" class="text-center">
+            <div id="certification" class="text-center">
                 <h2 class=" h2-responsive mb-5"><strong>My Certification</strong></h2>
 
-            </section>
+            </div>
 
             <hr class="my-5">
 
-            <section id="skill-tech" class="text-center">
+            <div id="skill-tech" class="text-center">
                 <h2 class=" h2-responsive mb-5"><strong>My Skills and Tech Stacks</strong></h2>
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-10">
                         <canvas id="skill-horizontalBar"> </canvas>
                     </div>
                 </div>
-            </section>
+            </div>
 
             <hr class="my-5">
 
-            <section id="deployed-project" class="text-center">
+            <div id="deployed-project" class="text-center">
                 <h2 class=" h2-responsive mb-5"><strong>My Deployed Projects</strong></h2>
 
-            </section>
+            </div>
 
             <hr class="my-5">
 
-            <section id="other-project" class="text-center">
+            <div id="other-project" class="text-center">
                 <h2 class=" h2-responsive mb-5"><strong>My Other Projects</strong></h2>
 
-            </section>
+            </div>
 
             <hr class="my-5">
 
-            <section id="contact" class="text-center">
+            <div id="contact" class="text-center">
                 <h2 class=" h2-responsive mb-5" class="text-center"><strong>My Contact</strong></h2>
 
-            </section>
+            </div>
 
             <hr class="my-5">
 
 
-            <!--Section: Examples-->
-            <section id="as" class="text-center">
+            <!--div: Examples-->
+            <div id="as" class="text-center">
                 <!--Grid row-->
                 <div class="row">
                 <!--Grid column-->
@@ -545,9 +611,9 @@
                 </div>
                 <!--Grid row-->
             
-            </section>
+            </div>
         </div>
-    </main>
+    </div>
 
     <footer class="indigo">
         <div class="container-fluid text-center text-md-left yellow">
@@ -613,6 +679,20 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Other scripts -->
     <script type="text/javascript" src="js/index.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
 
 </body>
 </html>

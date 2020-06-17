@@ -1,6 +1,6 @@
 html,
 body,
-#intro {
+#profile {
     height: 100%;
 }
 
@@ -19,7 +19,7 @@ footer {
     max-height: 12%;
 }
 
-#intro {
+#profile {
     background: url("../img/background.png")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
