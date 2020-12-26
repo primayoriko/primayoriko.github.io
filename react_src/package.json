@@ -1,8 +1,7 @@
 {
-  "name": "personalportfolio",
+  "name": "NaufalPortfolio",
   "version": "0.1.0",
   "homepage": "./",
-  "private": true,
   "dependencies": {
     "anix": "^0.3.3",
     "jquery": "^3.5.1",
