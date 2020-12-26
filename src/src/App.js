@@ -1,5 +1,4 @@
 // import logo from './logo.svg';
-// import './App.css';
 
 import React, { Component } from 'react';
 import $ from 'jquery';
@@ -7,17 +6,20 @@ import $ from 'jquery';
 import './App.css';
 
 import Header from './components/Header';
-// import Footer from './components/Footer';
-// import About from './components/About';
-// import Resume from './components/Resume';
-// import Contact from './components/Contact';
-// import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
+import About from './components/About';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import Skill from './components/Skill';
+import Project from './components/Project';
+import Achiviement from './components/Achiviement';
+import Certification from './components/Certification';
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      foo: 'bar',
       resumeData: {}
     };
   }
@@ -46,34 +48,17 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         {/* <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Education data={this.state.resumeData.resume}/>
+        <Experience data={this.state.resumeData.portfolio}/>
+        <Achiviement data={this.state.resumeData.portfolio}/>
+        <Certification data={this.state.resumeData.portfolio}/>
+        <Skill data={this.state.resumeData.portfolio}/>
+        <Project data={this.state.resumeData.portfolio}/>
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/> */}
       </div>
     );
   }
 }
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;
