@@ -10,12 +10,12 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import Education from './components/Education';
-import Experience from './components/Experience';
 import Contact from './components/Contact';
-import Skill from './components/Skill';
-import Achiviement from './components/Achiviement';
-import Certification from './components/Certification';
+// import Education from './components/Education';
+// import Experience from './components/Experience';
+// import Skill from './components/Skill';
+// import Achiviement from './components/Achiviement';
+// import Certification from './components/Certification';
 
 class App extends Component {
   constructor(props){

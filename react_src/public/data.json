@@ -41,17 +41,17 @@
     ],
     "interest": [
       {
-        "name": " ",
+        "name": "Web Development",
         "description": " ",
         "className": " "
       },
       {
-        "name": " ",
+        "name": "machine Learning",
         "description": " ",
         "className": " "
       },
       {
-        "name": " ",
+        "name": "Distributed System",
         "description": " ",
         "className": " "
       }
@@ -77,27 +77,33 @@
       {
         "company":"Pinhome",
         "title":"Software Develeopment Engineer Intern",
-        "time":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "time":"4th of January 2021 - 12th of March 2021 (Soon)",
+        "description":"Haven't Started Yet"
       },
       {
         "company":"Agate International",
         "title":"Ful Stack Web Programmer Intern",
-        "time":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "time":"2nd of June 2020 - 28th of August 2020",
+        "description":"Creating RESTful Web App with ASP .NET Core and EF Core, which separated into two projects, MVC and API. In MVC App, I'm implementing authentication, localization-globalization, design view with bootstrap, and other features. I'm also implementing OData Protocol, Swagger for documenting API, and middleware modification in the API."
       },
       {
         "company":"Institut Teknologi Bandung",
         "title":"Assistant of Distributed System Laboratory",
-        "time":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "time":"5th of July 2020 - now (On-Going)",
+        "description":"Assisting Informatics Student in ITB to do their laboratory work/practice, and also creating the task and grading them."
       },
       {
-        "company":"Keluarga Kemahasiswaan ITB",
+        "company":"Keluarga Kemahasiswaan (KM) ITB",
         "title":"Developer Lead of Anmategra",
-        "time":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }      
+        "time":"5th of August 2020 - now (On-Going)",
+        "description":"Leading team to create a web application for student affairs in ITB, and also taking part in programming the back-end of the web, such as modelling and creating databases, and creating controller, route, middleware, and documentation of the API."
+      },
+      {
+        "company":"Ministry of Religional Affair (Kementerian Agama), Republik Indonesia",
+        "title":"Instructor",
+        "time":"June 2019",
+        "description":"Teaching National Olympian from madrasah (MA) all around Indonesia in my OSN (National Olympiad) Field."
+      }    
     ],
     "achiviement": [
       {
