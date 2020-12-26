@@ -2,9 +2,7 @@
 background-uncompressed.png
 dummy.html
 sidebar.zip
-
-*.pdf
+df
 
 sidebar/
 node_modules/
-resumeData.json
