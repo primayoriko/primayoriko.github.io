@@ -47,9 +47,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>
-        {/* <About data={this.state.resumeData.main}/>
-        <Education data={this.state.resumeData.resume}/>
-        <Experience data={this.state.resumeData.portfolio}/>
+        <About data={this.state.resumeData.main}/>
+        {/* <Education data={this.state.resumeData.resume}/> */}
+        {/*<Experience data={this.state.resumeData.portfolio}/>
         <Achiviement data={this.state.resumeData.portfolio}/>
         <Certification data={this.state.resumeData.portfolio}/>
         <Skill data={this.state.resumeData.portfolio}/>

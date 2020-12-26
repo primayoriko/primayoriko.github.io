@@ -16,7 +16,8 @@ class Header extends Component {
             // strings: ["This will be typed!", "sadasdas"],
             speed: 120,
             waitUntilVisible: true, 
-            loop: true
+            loop: true,
+            loopDelay: 300
           }}
          getBeforeInit={instance => {
             instance
@@ -44,9 +45,9 @@ class Header extends Component {
         var name = this.props.data.name;
         var description = this.props.data.description;
         var city = this.props.data.address.city;
-        var networks = this.props.data.social.map(function(network){
-            return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-        })
+        var networks= this.props.data.social.map(function(network){
+         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+       })
     }
 
     return (
@@ -72,13 +73,11 @@ class Header extends Component {
          <div className="row banner">
          
             <div className="banner-text">
-               <h1 className="responsive-headline">{name}</h1>
+               <h1 className="responsive-headline">Hello, I'm {name},</h1>
                { this.typingDescription(description) }
-
                <hr />
                <ul className="social">
-                  <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a>
-                  <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+                  {networks}
                </ul>
             </div>
          </div>
