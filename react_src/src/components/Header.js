@@ -62,18 +62,17 @@ class Header extends Component {
                <li><a className="smoothscroll" href="#about">About</a></li>
                <li><a className="smoothscroll" href="#resume">Resume</a></li>
                <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
+               <li><a className="smoothscroll" href="#contact">Contact</a></li>
                {/* <li><a className="smoothscroll" href="#education">Education</a></li>
                <li><a className="smoothscroll" href="#experience">Experience</a></li>
                <li><a className="smoothscroll" href="#achiviement">Achiviement</a></li>
                <li><a className="smoothscroll" href="#certification">Certification</a></li>
                <li><a className="smoothscroll" href="#skill">Skill</a></li>
                <li><a className="smoothscroll" href="#project">Project</a></li> */}
-               <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
 
          <div className="row banner">
-         
             <div className="banner-text">
                <h1 className="responsive-headline">Hello, I'm {name},</h1>
                { this.typingDescription(description) }
