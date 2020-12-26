@@ -6,3 +6,5 @@ sidebar.zip
 *.pdf
 
 sidebar/
+node_modules/
+resumeData.json
