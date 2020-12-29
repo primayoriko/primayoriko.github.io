@@ -4,6 +4,8 @@ dummy.html
 sidebar.zip
 df
 
+.eslintcache
+
 sidebar/
 node_modules/
 build/
