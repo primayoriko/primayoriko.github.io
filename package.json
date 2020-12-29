@@ -1,7 +1,7 @@
 {
   "name": "NaufalPortfolio",
   "version": "0.1.0",
-  "homepage": "http://primayoriko.github.io/portfolio-page",
+  "homepage": "https://primayoriko.github.io/",
   "dependencies": {
     "anix": "^0.3.3",
     "bootstrap": "^4.5.3",
