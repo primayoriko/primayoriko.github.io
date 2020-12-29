@@ -107,26 +107,79 @@
     ],
     "achiviement": [
       {
+        "event": "Hult Prize at ITB",
+        "scope": "Campus (International Scale Competition)",
+        "organizer": "Hult Prize Foundation & United Nation",
+        "title": "Top 10 Finalists",
+        "time": "Nov 2019",
+        "description": "Top 10 in ITB qualification rounds to get ticket to compete abroad, a competition Hult Prize Foundation, in collaboration with the United Nations to design a business plan and solve environmental problems, so we try to solve it with our apps, SociEnvi, platform that give place for collaboration among environmental projects organizer, volunteers, individual funders, and also companies."
+      },
+      {
+        "event": "Slashroot CTF (Capture the Flag)",
+        "scope": "National",
+        "organizer": "STIKOM Bali",
+        "title": "Top 11 Teams",
+        "time": "Sep 2019",
+        "description": "Top 11 from about 30 teams from different universities, competition in Jeopardy format CTF Competition, which is find vulnerabilities of system to exploit, from ranging from web exploitation, cryptography, until forensics."
+      },
+      {
+        "event": "Techphoria",
+        "scope": "National",
+        "organizer": "Universitas Sriwijaya",
+        "title": "Top 8 Finalists of Competitive Programming",
+        "time": "Sep 2019",
+        "description": "5th place in semifinal from about 20 teams from universities all-around Indonesia in Competitive Programming Competition, which focusing on problem solving skills with algorithms, data structures, to obtain time and memory efficiency."
+
+      },
+      {
+        "event": "Olimpiade Sains Nasional (National Olympiad of Indonesia)",
+        "scope": "National",
+        "organizer": "Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture Republic of Indonesia)",
+        "title": "Gold Medalist",
+        "time": "Jul 2017",
+        "description": "Biggest annual science competition in Indonesia that held by Ministry of Educational Affair RI, getting 4th place beyond other thousands of participants all around Indonesia."
+      },
+      {
         "event": "",
+        "scope": "",
+        "organizer": "",
         "title": "",
-        "time": ""
+        "time": "",
+        "description": ""
+      },
+      {
+        "event": "",
+        "scope": "",
+        "organizer": "",
+        "title": "",
+        "time": "",
+        "description": ""
       }
     ],
     "certification": [
       {
-        "title": "",
-        "institution": "",
-        "time": ""
+        "title": "Pelatihan Nasional Tahap III (National Training 3rd Phase)",
+        "institution": "Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture Republic of Indonesia)",
+        "time": "Aug 2018 (No Expiration)",
+        "description": "A training that being held as a preparation for international scale competition, following 3rd phase of the training after being qualified in the 1st and 2nd phase afted selected among thousands of participants"
       },
       {
-        "title": "",
-        "institution": "",
-        "time": ""
+        "title": "Pemrograman Dengan Python (Programming With Python)",
+        "institution": "Dicoding Academy",
+        "time": "Apr 2020 - Apr 2024",
+        "description": ""
       },
       {
-        "title": "",
-        "institution": "",
-        "time": ""
+        "title": "Machine Learning Untuk Pemula (Machine Learning for Beginner)",
+        "institution": "Dicoding Academy",
+        "time": "Nov 2020 - Nov 2023",
+        "description": ""
+      },
+      {
+        "title": "Dasar Pemrograman Web (Web Development Essentials)",
+        "institution": "Dicoding Academy",
+        "time": "Sep 2019 - Sep 2022",
+        "description": ""
       }
     ],
     "skill":[
@@ -163,34 +216,130 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Anmategra",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "School App",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Avatar Neighborhood Graph",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Simple Calc",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Paper-Rock-Scissors CNN",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Sorting Animation App",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Choco Shop",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Simple Sundanese Translator",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Guess Game",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "TCP Connection Simulator",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "FNY OS",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "15-Puzzle Solver",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Python Grammar Checker",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
+      },
+      {
+        "title": "Convex Hull Finder",
+        "category": "",
+        "image": "canadian-wanderlust.jpg",
+        "repo_url": "",
+        "url": "", 
+        "description": "",
+        "tech": []
       }
     ]
   }
