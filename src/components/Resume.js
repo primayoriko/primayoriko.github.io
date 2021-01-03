@@ -17,20 +17,31 @@ class Resume extends Component {
 
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.time}</em></p>
+        <p className="info">{education.degree} <span>&bull;</span><em className="info">{education.time}</em></p>
         <p>{education.description}</p></div>
       })
 
       var experience = this.props.data.experience.map(function(experience){
         return <div key={experience.company}><h3>{experience.company}</h3>
-            <p className="info">{experience.title}<span>&bull;</span> <em className="date">{experience.time}</em></p>
+            <p className="info">{experience.title}<span>&bull;</span> <em className="info">{experience.time}</em></p>
             <p>{experience.description}</p>
         </div>
       })
 
-      var achiviement = null;
-
-      var certification = null;
+      var achiviement = this.props.data.achiviement.map(function(achiviement){
+        return <div key={achiviement.event}><h3>{achiviement.event}</h3>
+						<p className="info">{achiviement.organizer}<span>&bull;</span> <em className="info">{achiviement.time}</em></p>
+            <p className="info">{achiviement.title}<span>&bull;</span> {achiviement.scope}</p>
+            <p>{achiviement.description}</p>
+        </div>
+	  })
+	  
+	  var certification = this.props.data.certification.map(function(certification){
+        return <div key={certification.title}><h3>{certification.title}</h3>
+            <p className="info">{certification.institution}<span>&bull;</span> <em className="info">{certification.time}</em></p>
+            <p>{certification.description}</p>
+        </div>
+      })
 
       var skill = this.props.data.skill.map((skill)=>{
         var className = 'bar-expand '+skill.name.toLowerCase();
@@ -39,7 +50,7 @@ class Resume extends Component {
             <span style={{width:skill.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skill.name}</em>
           </li>
         )
-      })
+      });
     }
 
     return (
@@ -49,11 +60,11 @@ class Resume extends Component {
 							<h1><span>Education</span></h1>
 					</div>
 					<div className="nine columns main-col">
-							<div className="row item">
-								<div className="twelve columns">
-									{education}
-								</div>
+						<div className="row item">
+							<div className="twelve columns">
+								{education}
 							</div>
+						</div>
 					</div>
 				</div>
 
@@ -63,31 +74,47 @@ class Resume extends Component {
 					</div>
 
 					<div className="nine columns main-col">
-						{experience}
+						<div className="row item">
+							<div className="twelve columns">
+								{experience}
+							</div>
+						</div>
 					</div>
 				</div>
 
-        <div className="row experience">
+				<br></br>
+
+        <div className="row achiviement">
 					<div className="three columns header-col">
 							<h1><span>achiviement</span></h1>
 					</div>
 
 					<div className="nine columns main-col">
-						{achiviement}
+						<div className="row item">
+							<div className="twelve columns">
+								{achiviement}
+							</div>
+						</div>
 					</div>
 				</div>
 
-        <div className="row experience">
+				<br></br>
+
+        <div className="row certification">
 					<div className="three columns header-col">
 							<h1><span>certification</span></h1>
-              <div style={{marginTop:100, marginBottom:100}}/>
 					</div>
 
 					<div className="nine columns main-col">
-						{certification}
-            <div style={{marginTop:100, marginBottom:100}}/>
+					<div className="row item">
+							<div className="twelve columns">
+								{certification}
+							</div>
+						</div>
 					</div>
 				</div>
+				
+				<br></br>
 
 				<div className="row skill">
 					<div className="three columns header-col">
