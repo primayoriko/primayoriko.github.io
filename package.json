@@ -4,11 +4,9 @@
   "homepage": "https://primayoriko.github.io/",
   "dependencies": {
     "anix": "^0.3.3",
-    "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
     "particles-bg": "^2.5.0",
     "react": "^16.14.0",
-    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
     "react-ga": "^2.3.5",
     "react-router-dom": "^5.2.0",
@@ -21,7 +19,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "browserslist": {
     "production": [

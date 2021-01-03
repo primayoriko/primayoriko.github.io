@@ -21,39 +21,40 @@
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/naufal-prima-yoriko-799622a8/",
-        "className":"fa fa-linkedin"
+        "className":"fab fa-linkedin"
       },
       {
         "name":"github",
         "url":"https://github.com/primayoriko",
-        "className":"fa fa-github"
+        "className":"fab fa-github"
       },
       {
         "name":"instagram",
         "url":"https://instagram.com/primayoriko",
-        "className":"fa fa-instagram"
+        "className":"fab fa-instagram"
       },
       {
         "name":"twitter",
         "url":"https://twitter.com/PrimaYoriko",
-        "className":"fa fa-twitter"
+        "className":"fab fa-twitter"
       }
     ],
     "interest": [
+      
       {
-        "name": "Web Development",
-        "description": " ",
-        "className": " "
+        "name": "AI and ML",
+        "description": "Artificial Inteligence and also Machine Learning have always been interesting and being my favored topics, moreover its has wide application and could be collaborated with other fields to create many discoveries that are extraordinarily amazing and useful.",
+        "className": "fas fa-brain fa-5x"
       },
       {
-        "name": "machine Learning",
-        "description": " ",
-        "className": " "
+        "name": "Web Development",
+        "description": "Web Development is also being favourite subject by many people, include myself, since it's being general (cross-platform) media that could be accessed from multiple platform and helps people to share it's thought, and undoubtly has made the world more interesting and exciting.",
+        "className": "fas fa-globe-europe fa-5x"
       },
       {
         "name": "Distributed System",
-        "description": " ",
-        "className": " "
+        "description": "Distributed system is also one of my favourite subject since It's related to how to make modern system that scalable, and at same time being highly accessible and reliable. Also many of fields need this kind of system for various of implementations so It's really amazing to know how such system could be built and worked.",
+        "className": "fas fa-wifi fa-5x"
       }
     ]
   },
@@ -84,7 +85,7 @@
         "company":"Agate International",
         "title":"Ful Stack Web Programmer Intern",
         "time":"2nd of June 2020 - 28th of August 2020",
-        "description":"Creating RESTful Web App with ASP .NET Core and EF Core, which separated into two projects, MVC and API. In MVC App, I'm implementing authentication, localization-globalization, design view with bootstrap, and other features. I'm also implementing OData Protocol, Swagger for documenting API, and middleware modification in the API."
+        "description":"Creating RESTful Web App with ASP .NET Core and EF Core, which separated into two projects, MVC and API. In MVC App, I implement authentication, localization-globalization, design view with bootstrap, and other features. I also implement OData Protocol, Swagger for documenting API, and middleware's pipelines in the API."
       },
       {
         "company":"Institut Teknologi Bandung",

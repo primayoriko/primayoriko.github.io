@@ -1,3 +1,5 @@
+// import 'bootstrap/dist/css/bootstrap.css';
+
 import React, { Component } from 'react';
 
 class About extends Component {
@@ -14,20 +16,39 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+	  var resumeDownload = this.props.data.resumedownload;
+	  var interests= this.props.data.interest.map(function(item){
+		return (
+				<div className="four columns card interest">
+					{/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+					<p className="head">{item.name}</p>
+					<i className={item.className}></i>
+					<p className="body">{item.description}</p>
+				</div>
+			);
+	  })
     }
 
     return (
       <section id="about" style={{ backgroundColor:"#222222", margin:"0 50" }} >
 				{/* <div className="three columns"> */}
 				<div>
-						<img className="profile-pic" style={{ backgroundColor:"#111111" }} src={profilepic} alt="Naufal Profile Pic" />
+					<img className="profile-pic" 
+								style={{ backgroundColor:"#111111", marginLeft:"auto", marginRight:"auto" }} src={profilepic} 
+								alt="Naufal Profile Pic" 
+					/>
 				</div>
 				<div className="row" >
 					{/* <div className="nine columns main-col"> */}
 					<div style={{ marginTop:30 }}>
 						<h2>About Me</h2>
 						<p>{bio}</p>
+						<div className="row">
+							<h2>Field of Interest</h2>
+							<div>
+									{interests}
+							</div>
+						</div>
 						<div className="row">
 							<div className="columns contact-details">
 								<h2>Contact Details</h2>
@@ -48,18 +69,6 @@ class About extends Component {
 								</p>
 							</div>
 						</div>
-					</div>
-
-					<div className="">
-						<h2>Field of Interest</h2>
-						<p className="address">
-							<span>{fullName}</span><br />
-							<span>{street}<br />
-										{city}, {state}, {zip}
-									</span><br />
-							<span>{phone}</span><br />
-										<span>{email}</span>
-						</p>
 					</div>
 				</div>
    		</section>

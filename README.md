@@ -2,7 +2,15 @@
 -------
 
 This is my portfolio web created using React framework. 
-<!-- To view source code of unbuilt react, you could see it in `react_src/` directory. -->
+
+## Library and External Assets Used
+
+-------
+
+1. React-Bootstrap
+2. ParticlesBg
+3. TypeIt
+4. Font Awesome v5
 
 ## Credits
 -------

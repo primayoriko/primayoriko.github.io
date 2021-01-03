@@ -16,6 +16,9 @@
    h. Contact Section
    i. Footer
 
+   Additions by primayoriko:
+   j. Cards
+
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
@@ -201,10 +204,18 @@ ul#nav li.current a { color: #fe6928; }
    color: #ccc;
 }
 #about .profile-pic {
-   position: relative;
+   /* position: relative;
    width: 120px;
    height: 120px;
-   border-radius: 100%;
+   border-radius: 100%; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   /* min-width: 170px; */
+   width: 15%;
+   max-width: 100%;
+   height: auto;
+   border-radius: 50%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -223,6 +234,16 @@ ul#nav li.current a { color: #fe6928; }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+
+.interest.card {
+   background-color: #393939;
+   /* text */
+   color: #FFFFFF;
+}
+
+.interest.card > .head {
+   background-color: #2E2E2E;
 }
 
 
@@ -1021,4 +1042,28 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* j. Card
+/* ------------------------------------------------------------------ */
+
+.card {
+   margin: 30px 0;
+   border-style: solid;
+   border-color: #1D1D1D;
+   border-width: 2.5px;
+}
+
+.card > .body{
+   margin: 20px;
+   padding-bottom: 30px;
+}
+
+.card > .head {
+   margin-top: 30px;
+   font-size: larger;
+   font-weight: bolder;
+   padding: 30px 100px;
+   border-style: none;
 }
