@@ -5,6 +5,7 @@ import $ from 'jquery';
 
 import './App.css';
 
+import { ModalProvider } from './components/Modal'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -47,17 +48,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/> 
-        {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
-        {/* <Contact data={this.state.resumeData.main}/> */}
-        <Footer data={this.state.resumeData.main}/>
-        {/* <Education data={this.state.resumeData.resume}/>
-        <Experience data={this.state.resumeData.portfolio}/>
-        <Achiviement data={this.state.resumeData.portfolio}/>
-        <Certification data={this.state.resumeData.portfolio}/>
-        <Skill data={this.state.resumeData.portfolio}/>*/}
+        <ModalProvider>
+          <Header data={this.state.resumeData.main}/>
+          <About data={this.state.resumeData.main}/>
+          <Resume data={this.state.resumeData.resume}/> 
+          <Portfolio data={this.state.resumeData.portfolio}/>
+          {/* <Contact data={this.state.resumeData.main}/> */}
+          <Footer data={this.state.resumeData.main}/>
+          {/* <Education data={this.state.resumeData.resume}/>
+          <Experience data={this.state.resumeData.portfolio}/>
+          <Achiviement data={this.state.resumeData.portfolio}/>
+          <Certification data={this.state.resumeData.portfolio}/>
+          <Skill data={this.state.resumeData.portfolio}/>*/}
+        </ModalProvider>
       </div>
     );
   }
