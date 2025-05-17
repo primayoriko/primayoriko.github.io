@@ -19,11 +19,6 @@
     "resumedownload":"",
     "social":[
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/",
-        "className":"fab fa-linkedin"
-      },
-      {
         "name":"github",
         "url":"https://github.com/primayoriko",
         "className":"fab fa-github"
