@@ -6,8 +6,8 @@
     "image":"assets/profile.jpg",
     "bio":"A learner who is full of curiosity and strives to be a better person every day. Having a high interest in Data Science and Web Development, also like to do some riddles and problem-solving questions.",
     "contactmessage":"",
-    "email": "primayoriko@gmail.com",
-    "phone": "+62-821-8376-7920",
+    "email": "",
+    "phone": "",
     "github":"https://github.com/primayoriko",
     "project":"https://github.com/primayoriko/primayoriko.github.io",
     "address":{
@@ -20,7 +20,7 @@
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/naufal-prima-yoriko/",
+        "url":"https://www.linkedin.com/",
         "className":"fab fa-linkedin"
       },
       {
