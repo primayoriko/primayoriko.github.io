@@ -44,6 +44,10 @@ function tick() {
   }
 }
 
+function scrollToAbout() {
+  document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
+}
+
 const particlesOptions = {
   fullScreen: { enable: false },
   background: { color: { value: 'transparent' } },
@@ -127,7 +131,7 @@ onUnmounted(() => {
       <div class="mt-16 animate-fade-in-up animation-delay-500">
         <button
           class="text-white/50 hover:text-accent-500 transition-colors"
-          @click="document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })"
+          @click="scrollToAbout"
           aria-label="Scroll down"
         >
           <svg class="w-8 h-8 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">

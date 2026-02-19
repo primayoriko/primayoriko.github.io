@@ -1,33 +1,74 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { profile } from '@/data/profile'
+import type { ExperienceType } from '@/types/profile'
 
+const activeFilter = ref<ExperienceType | 'all'>('all')
 const showAll = ref(false)
-const initialCount = 4
-const displayedExperiences = ref(profile.experiences.slice(0, initialCount))
+const initialCount = 5
 
-function toggleShowAll() {
-  showAll.value = !showAll.value
-  displayedExperiences.value = showAll.value
-    ? profile.experiences
-    : profile.experiences.slice(0, initialCount)
+const filters: { key: ExperienceType | 'all'; label: string }[] = [
+  { key: 'all', label: 'All' },
+  { key: 'full-time', label: 'Full-time' },
+  { key: 'internship', label: 'Internship' },
+  { key: 'part-time', label: 'Part-time' },
+  { key: 'voluntary', label: 'Voluntary' },
+]
+
+const filtered = computed(() => {
+  if (activeFilter.value === 'all') return profile.experiences
+  return profile.experiences.filter((e) => e.type === activeFilter.value)
+})
+
+const displayed = computed(() =>
+  showAll.value ? filtered.value : filtered.value.slice(0, initialCount)
+)
+
+const typeBadge: Record<ExperienceType, string> = {
+  'full-time': 'bg-green-500/15 text-green-400',
+  'part-time': 'bg-blue-500/15 text-blue-400',
+  internship: 'bg-purple-500/15 text-purple-400',
+  voluntary: 'bg-amber-500/15 text-amber-400',
+}
+
+function setFilter(key: ExperienceType | 'all') {
+  activeFilter.value = key
+  showAll.value = false
 }
 </script>
 
 <template>
   <section id="experience" class="py-20 sm:py-28 bg-[#0f0f0f]">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
         Experience
       </h2>
+
+      <!-- Filter tabs -->
+      <div class="flex flex-wrap justify-center gap-2 mb-10">
+        <button
+          v-for="f in filters"
+          :key="f.key"
+          class="px-4 py-1.5 text-sm font-medium rounded-full transition-colors"
+          :class="activeFilter === f.key
+            ? 'bg-accent-500 text-white'
+            : 'bg-white/5 text-dark-300 hover:bg-white/10 border border-white/10'"
+          @click="setFilter(f.key)"
+        >
+          {{ f.label }}
+          <span class="ml-1 text-xs opacity-70">
+            ({{ f.key === 'all' ? profile.experiences.length : profile.experiences.filter(e => e.type === f.key).length }})
+          </span>
+        </button>
+      </div>
 
       <div class="relative">
         <div class="absolute left-4 sm:left-6 top-0 bottom-0 w-px bg-white/10" />
 
         <div class="space-y-8">
           <div
-            v-for="(exp, i) in displayedExperiences"
-            :key="i"
+            v-for="(exp, i) in displayed"
+            :key="`${activeFilter}-${i}`"
             class="relative pl-12 sm:pl-16"
           >
             <div
@@ -40,9 +81,17 @@ function toggleShowAll() {
             <div class="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-accent-500/30 transition-colors">
               <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
                 <div>
-                  <h3 class="text-lg font-semibold text-white">
-                    {{ exp.title }}
-                  </h3>
+                  <div class="flex items-center gap-2 flex-wrap">
+                    <h3 class="text-lg font-semibold text-white">
+                      {{ exp.title }}
+                    </h3>
+                    <span
+                      class="px-2 py-0.5 text-[10px] font-semibold rounded-full uppercase tracking-wider"
+                      :class="typeBadge[exp.type]"
+                    >
+                      {{ exp.type }}
+                    </span>
+                  </div>
                   <p class="text-accent-500 font-medium">
                     <a
                       v-if="exp.companyUrl"
@@ -87,12 +136,12 @@ function toggleShowAll() {
         </div>
       </div>
 
-      <div v-if="profile.experiences.length > initialCount" class="mt-8 text-center">
+      <div v-if="filtered.length > initialCount" class="mt-8 text-center">
         <button
           class="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-accent-400 bg-accent-500/10 rounded-xl hover:bg-accent-500/20 transition-colors"
-          @click="toggleShowAll"
+          @click="showAll = !showAll"
         >
-          {{ showAll ? 'Show Less' : `Show All ${profile.experiences.length} Positions` }}
+          {{ showAll ? 'Show Less' : `Show All ${filtered.length} Positions` }}
           <svg
             class="w-4 h-4 transition-transform"
             :class="showAll ? 'rotate-180' : ''"

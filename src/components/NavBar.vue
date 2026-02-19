@@ -9,10 +9,13 @@ const sections = [
   { id: 'skills', label: 'Skills' },
   { id: 'awards', label: 'Awards' },
   { id: 'projects', label: 'Projects' },
+  { id: 'publications', label: 'Papers' },
+  { id: 'certifications', label: 'Certs' },
 ]
 
 const isScrolled = ref(false)
 const mobileOpen = ref(false)
+const activeSection = ref('hero')
 
 function scrollTo(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
@@ -21,6 +24,18 @@ function scrollTo(id: string) {
 
 function handleScroll() {
   isScrolled.value = window.scrollY > 20
+
+  let current = 'hero'
+  for (const s of sections) {
+    const el = document.getElementById(s.id)
+    if (el) {
+      const rect = el.getBoundingClientRect()
+      if (rect.top <= window.innerHeight * 0.4) {
+        current = s.id
+      }
+    }
+  }
+  activeSection.value = current
 }
 
 onMounted(() => {
@@ -44,7 +59,10 @@ onUnmounted(() => {
           <button
             v-for="s in sections"
             :key="s.id"
-            class="px-3.5 py-2 text-white hover:text-accent-500 transition-colors"
+            class="px-3.5 py-2 transition-colors"
+            :class="activeSection === s.id
+              ? 'text-accent-500'
+              : 'text-white hover:text-accent-500'"
             @click="scrollTo(s.id)"
           >
             {{ s.label }}
@@ -80,7 +98,10 @@ onUnmounted(() => {
           <button
             v-for="s in sections"
             :key="s.id"
-            class="block w-full text-left px-3 py-2 text-sm text-white hover:text-accent-500 transition-colors"
+            class="block w-full text-left px-3 py-2 text-sm rounded-lg transition-colors"
+            :class="activeSection === s.id
+              ? 'text-accent-500 bg-accent-500/10'
+              : 'text-white hover:text-accent-500 hover:bg-white/5'"
             @click="scrollTo(s.id)"
           >
             {{ s.label }}
