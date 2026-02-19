@@ -26,30 +26,38 @@ export const profile: ProfileData = {
       companyUrl: 'https://www.gotocompany.com',
       period: 'Oct 2022 – May 2024',
       location: 'Jakarta, Indonesia',
-      description:
-        'Worked as a software engineer at one of Southeast Asia\'s largest technology groups.',
+      description: 'Worked as a software engineer at one of the largest technology groups in Southeast Asia.',
       type: 'full-time',
       durationMonths: 19,
     },
+
+    // --- Part-time ---
     {
       title: 'Software Engineer',
       company: 'AdaKerja',
       companyUrl: 'https://adakerja.com',
       period: 'Jul 2022 – Sep 2022',
-      description:
-        'Reduced database cost by ~75% by fixing database issues. Reduced several endpoint latency by ~50% by optimizing the process and code. Improved services\' security by patching vulnerable dependencies.',
+      description: [
+        'Reduce database cost by around 75% by fixing database issues.',
+        'Reduce several endpoint latency by around 50% by optimizing the process and code.',
+        'Improve services\' security by patching vulnerable dependencies that are used by back-end systems.',
+      ],
       type: 'part-time',
       durationMonths: 2,
     },
 
+    // --- Internship ---
     {
       title: 'DevOps Engineer',
       company: 'Traveloka',
       companyUrl: 'https://www.traveloka.com',
       period: 'Aug 2021 – Jan 2022',
       location: 'Tangerang, Indonesia',
-      description:
-        'Reduced AWS RDS database migration time significantly by creating an automated migration and upgrading tool. Created dependabot files generator in CI pipeline. Enhanced payment system security with AWS stack.',
+      description: [
+        'Reduce AWS RDS database migration time significantly by creating an automated migration and upgrading tool.',
+        'Reduce manual steps in committing to Git by creating dependabot files generator in CI pipeline in Github with JavaScript.',
+        'Enhance the payment system\'s security by providing a more secure gateway with AWS stack and external tools.',
+      ],
       type: 'internship',
       durationMonths: 5,
     },
@@ -59,8 +67,7 @@ export const profile: ProfileData = {
       companyUrl: 'https://www.blibli.com',
       period: 'Jan 2021 – Sep 2021',
       location: 'Indonesia',
-      description:
-        'Improved skills (both hard skills and soft skills) by boot camping and creating a web-based Restaurant App.',
+      description: 'Improve skills (both hard skill and soft skill) by boot camping and creating a web-based Restaurant App.',
       type: 'internship',
       durationMonths: 8,
     },
@@ -70,8 +77,7 @@ export const profile: ProfileData = {
       companyUrl: 'https://www.blibli.com',
       period: 'Jun 2021 – Aug 2021',
       location: 'Indonesia',
-      description:
-        'Improved the existing back-end of the trade-in system by implementing and enhancing features integrated with the ML system to adapt to new business needs.',
+      description: 'Improve the existing back-end of the trade-in system by implementing and enhancing features that are integrated with the ML system to adapt to new business needs.',
       type: 'internship',
       durationMonths: 2,
     },
@@ -81,8 +87,7 @@ export const profile: ProfileData = {
       companyUrl: 'https://www.pinhome.id',
       period: 'Jan 2021 – Mar 2021',
       location: 'Jakarta, Indonesia',
-      description:
-        'Helped internal organization processes by creating an internal content management system.',
+      description: 'Help internal organization processes by creating an internal content management system.',
       type: 'internship',
       durationMonths: 2,
     },
@@ -92,12 +97,12 @@ export const profile: ProfileData = {
       companyUrl: 'https://agate.id',
       period: 'Jun 2020 – Aug 2020',
       location: 'Bandung, Indonesia',
-      description:
-        'Created a RESTful Web App with ASP .NET Core implementing authentication, localization, middlewares, OData Protocol, and Swagger documentation.',
+      description: 'Improving skills by creating a RESTful Web App with ASP .NET Core. In the App, I implement authentication, localization-globalization, middlewares, OData Protocol, design view with bootstrap, and also documenting the API with Swagger.',
       type: 'internship',
       durationMonths: 2,
     },
 
+    // --- Voluntary ---
     {
       title: 'Assistant Coordinator of Distributed Systems Course',
       company: 'Institut Teknologi Bandung',
@@ -111,19 +116,16 @@ export const profile: ProfileData = {
       company: 'Institut Teknologi Bandung',
       period: 'Jul 2020 – Jun 2022',
       location: 'Bandung, Indonesia',
-      description:
-        'Assisted students in distributed system lab courses (Computer Network, Operating Systems, Distributed Systems, and Computer Architecture) by formulating practical tasks, tutoring, and grading.',
+      description: 'Success in assisting students in distributed system lab courses (Computer Network, Operating Systems, Distributed Systems, and Organization and Architecture of Computer) by formulating practical tasks, tutoring, and grading.',
       type: 'voluntary',
       durationMonths: 23,
     },
-
     {
       title: 'Staff of IT',
       company: 'ARKAVIDIA',
       period: 'Sep 2020 – Mar 2021',
       location: 'Bandung, Indonesia',
-      description:
-        'Delivered various features for Arkavidia web: playing games, scoreboard, mailing, and checking out items with points.',
+      description: 'Success in delivering various features for Arkavidia web, like playing games, scoreboard, mailing, and checking out items with points.',
       type: 'voluntary',
       durationMonths: 6,
     },
@@ -132,8 +134,7 @@ export const profile: ProfileData = {
       company: 'Kabinet KM ITB',
       period: 'Aug 2020 – Mar 2021',
       location: 'Bandung, Indonesia',
-      description:
-        'Led a team of six people to deliver a web application for student data collection, formulated requirements to features, and took part in the implementation.',
+      description: 'Success in delivering a web application for student data collection by leading a team of six people, formulate the requirements to features, and taking part in the implementation.',
       type: 'voluntary',
       durationMonths: 7,
     },
@@ -150,7 +151,7 @@ export const profile: ProfileData = {
       company: 'HMIF Tech',
       period: 'Oct 2019 – Mar 2020',
       location: 'Bandung, Indonesia',
-      description: 'Organizing tech events and products, such as podcast and workshops.',
+      description: 'Organizing tech events and products, such as podcasts and workshops.',
       type: 'voluntary',
       durationMonths: 5,
     },
@@ -167,7 +168,7 @@ export const profile: ProfileData = {
       company: 'ARKAVIDIA',
       period: 'Nov 2019 – Feb 2020',
       location: 'Bandung, Indonesia',
-      description: 'Helped organize the event, test the competition platform, and create a rule book.',
+      description: 'Help to organize the event, test the competition\'s platform, and create a rule book for this competition.',
       type: 'voluntary',
       durationMonths: 3,
     },
@@ -176,7 +177,7 @@ export const profile: ProfileData = {
       company: 'TechoEntrepreneur Club (TEC) Internship 2019',
       period: 'Jul 2019 – Sep 2019',
       location: 'Bandung, Indonesia',
-      description: 'Created IT-based stuff such as forms and databases for event agendas and data collection.',
+      description: 'Success in supporting various event agendas and data collection of the TEC Internship by creating IT-based stuff, such as forms and databases.',
       type: 'voluntary',
       durationMonths: 2,
     },
@@ -185,7 +186,7 @@ export const profile: ProfileData = {
       company: 'Kementerian Agama Republik Indonesia',
       period: 'Jun 2019',
       location: 'Tangsel, Indonesia',
-      description: 'Taught and shared knowledge in astronomy and astrophysics to national olympiad students from Madrasah across Indonesia.',
+      description: 'Help and facilitate national olympiad students from Madrasah in Indonesia to learn by teaching and sharing my knowledge in astronomy and astrophysics at National Olympiad (OSN).',
       type: 'voluntary',
       durationMonths: 1,
     },

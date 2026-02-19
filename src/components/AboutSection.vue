@@ -29,6 +29,7 @@ const stats = computed(() => [
   { label: 'Companies', target: companiesCount.value, suffix: '' },
   { label: 'Awards', target: profile.awards.length, suffix: '' },
   { label: 'Projects', target: profile.projects.length, suffix: '' },
+  { label: 'Certifications', target: profile.certifications.length, suffix: '' },
 ])
 
 const counters = ref(stats.value.map(() => 0))
@@ -109,7 +110,7 @@ watch(statsVisible, (v) => {
       </div>
 
       <!-- Animated Stats -->
-      <div ref="statsRef" class="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div ref="statsRef" class="mt-12 grid grid-cols-2 sm:grid-cols-5 gap-4">
         <div
           v-for="(stat, i) in stats"
           :key="stat.label"

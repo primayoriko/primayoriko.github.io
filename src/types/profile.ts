@@ -6,7 +6,7 @@ export interface Experience {
   companyUrl?: string
   period: string
   location?: string
-  description?: string
+  description?: string | string[]
   isCurrent?: boolean
   type: ExperienceType
   durationMonths: number

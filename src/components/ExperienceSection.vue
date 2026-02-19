@@ -10,8 +10,8 @@ const initialCount = 5
 const filters: { key: ExperienceType | 'all'; label: string }[] = [
   { key: 'all', label: 'All' },
   { key: 'full-time', label: 'Full-time' },
-  { key: 'internship', label: 'Internship' },
   { key: 'part-time', label: 'Part-time' },
+  { key: 'internship', label: 'Internship' },
   { key: 'voluntary', label: 'Voluntary' },
 ]
 
@@ -121,9 +121,12 @@ function setFilter(key: ExperienceType | 'all') {
                   </div>
                 </div>
               </div>
-              <p v-if="exp.description" class="mt-3 text-dark-300 text-sm leading-relaxed">
-                {{ exp.description }}
-              </p>
+              <div v-if="exp.description" class="mt-3 text-dark-300 text-sm leading-relaxed">
+                <ul v-if="Array.isArray(exp.description)" class="list-disc list-inside space-y-1">
+                  <li v-for="(item, j) in exp.description" :key="j">{{ item }}</li>
+                </ul>
+                <p v-else>{{ exp.description }}</p>
+              </div>
               <span
                 v-if="exp.isCurrent"
                 class="inline-flex items-center gap-1.5 mt-3 px-3 py-1 bg-accent-500/10 text-accent-400 text-xs font-medium rounded-full"
