@@ -1,0 +1,46 @@
+export interface Experience {
+  title: string
+  company: string
+  companyUrl?: string
+  period: string
+  location?: string
+  description?: string
+  isCurrent?: boolean
+}
+
+export interface Education {
+  degree: string
+  institution: string
+  period: string
+  location?: string
+}
+
+export interface Award {
+  title: string
+  issuer: string
+  year: string
+  description: string
+  level: 'international' | 'national' | 'regional' | 'campus'
+}
+
+export interface Project {
+  name: string
+  period: string
+  description: string
+  url?: string
+}
+
+export interface ProfileData {
+  name: string
+  title: string
+  location: string
+  about: string
+  githubUrl: string
+  linkedinUrl: string
+  experiences: Experience[]
+  education: Education[]
+  skills: string[]
+  awards: Award[]
+  projects: Project[]
+  languages: { language: string; proficiency: string }[]
+}
