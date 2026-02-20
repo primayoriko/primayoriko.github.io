@@ -1,7 +1,12 @@
 <script setup lang="ts">
-import { ref, watch, computed } from 'vue'
+import { ref, watch, computed, inject } from 'vue'
 import { profile } from '@/data/profile'
+import type { ProfileData } from '@/types/profile'
+import type { Ref } from 'vue'
 import { useScrollReveal } from '@/composables/useScrollReveal'
+
+const linkedinData = inject<{ profileData: Ref<ProfileData> }>('linkedinData')
+const liveProfile = computed(() => linkedinData?.profileData.value ?? profile)
 
 const { target: statsRef, isVisible: statsVisible } = useScrollReveal(0.3)
 
@@ -66,7 +71,7 @@ watch(statsVisible, (v) => {
       <div class="grid md:grid-cols-3 gap-8">
         <div class="md:col-span-2 space-y-4">
           <p class="text-dark-300 leading-relaxed text-lg">
-            {{ profile.about }}
+            {{ liveProfile.about }}
           </p>
           <p class="text-dark-300 leading-relaxed">
             With over {{ yearsOfExperience }} years of experience across companies like
@@ -103,7 +108,7 @@ watch(statsVisible, (v) => {
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              {{ profile.location }}
+              {{ liveProfile.location }}
             </div>
           </div>
         </div>

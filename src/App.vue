@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { provide } from 'vue'
+import { useLinkedInData } from '@/composables/useLinkedInData'
 import NavBar from '@/components/NavBar.vue'
 import ScrollProgress from '@/components/ScrollProgress.vue'
 import RevealOnScroll from '@/components/RevealOnScroll.vue'
@@ -11,8 +13,14 @@ import AwardsSection from '@/components/AwardsSection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
 import PublicationsSection from '@/components/PublicationsSection.vue'
 import CertificationsSection from '@/components/CertificationsSection.vue'
+import CoursesSection from '@/components/CoursesSection.vue'
+import GitHubActivity from '@/components/GitHubActivity.vue'
 import FooterSection from '@/components/FooterSection.vue'
 import BackToTop from '@/components/BackToTop.vue'
+
+const { profileData, liveSections, loading } = useLinkedInData()
+
+provide('linkedinData', { profileData, liveSections, loading })
 </script>
 
 <template>
@@ -45,6 +53,12 @@ import BackToTop from '@/components/BackToTop.vue'
       </RevealOnScroll>
       <RevealOnScroll>
         <CertificationsSection />
+      </RevealOnScroll>
+      <RevealOnScroll>
+        <CoursesSection />
+      </RevealOnScroll>
+      <RevealOnScroll>
+        <GitHubActivity />
       </RevealOnScroll>
     </main>
     <FooterSection />

@@ -1,0 +1,588 @@
+{
+  "fetchedAt": "2026-02-19T01:55:13.360Z",
+  "name": "Naufal Prima Yoriko",
+  "title": "Software Engineer",
+  "location": "Singapore",
+  "about": "A learner who is full of curiosity and strives to be a better person every day. I'm a last year university student at Institut Teknologi Bandung who interested and focused on web development (especially backend), distributed system &amp; microservices, devops, and machine learning. I'm also like to do some riddles and problem-solving questions. Currently, actively gaining some working experiences at various companies and joining (winning/get awards on some of them) various prestigious competitions at national or international level. Visit my Github profile here, https://github.com/primayoriko",
+  "experiences": [
+    {
+      "title": "Software Engineer",
+      "company": "TikTok",
+      "period": "Jun 2024 – Present",
+      "duration": "1 year and 7 months"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "GoTo Group",
+      "period": "Oct 2022 – May 2024",
+      "duration": "1 year and 7 months",
+      "location": "Jakarta, Indonesia"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "AdaKerja",
+      "period": "Jul 2022 – Sep 2022",
+      "duration": "2 months",
+      "description": "- Reduce database cost by around 75% by fixing database issues. - Reduce several endpoint latency by around 50% by optimizing the process and code. - Improve services' security by patching vulnerable dependencies that are used by back-end systems."
+    },
+    {
+      "title": "Assistant Coordinator Of Distributed Systems Course",
+      "company": "Bandung Institute of Technology",
+      "period": "Jan 2022 – Jun 2022",
+      "duration": "5 months",
+      "location": "Bandung, West Java, Indonesia"
+    },
+    {
+      "title": "Distributed Systems Laboratory Assistant",
+      "company": "Institut Teknologi Bandung",
+      "period": "Jul 2020 – Jun 2022",
+      "duration": "1 year and 11 months",
+      "location": "Bandung, West Java, Indonesia",
+      "description": "Success in assisting students in distributed system lab courses (Computer Network, Operating Systems, Distributed Systems, and Organization and Architecture of Computer) by formulating practical tasks, tutoring, and grading."
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Traveloka",
+      "period": "Aug 2021 – Jan 2022",
+      "duration": "5 months",
+      "location": "Tangerang, Banten, Indonesia",
+      "description": "- Reduce AWS RDS database migration time significantly by creating an automated migration and upgrading tool. - Reduce manual steps in committing to Git by creating dependabot files generator in CI pipeline in Github with JavaScript. - Enhance the payment system's security by providing a more secure gateway with AWS stack and external tools."
+    },
+    {
+      "title": "Software Development Engineer Track At FUTURE Program Batch V",
+      "company": "Blibli.com",
+      "period": "Jan 2021 – Sep 2021",
+      "duration": "8 months",
+      "description": "Improve skills (both hard skills and soft skills) by boot camping and creating a web-based Restaurant App."
+    },
+    {
+      "title": "Software Development Engineer",
+      "company": "Blibli.com",
+      "period": "Jun 2021 – Aug 2021",
+      "duration": "2 months",
+      "description": "Improve the existing back-end of the trade-in system by implementing and enhancing features that are integrated with the ML system to adapt to new business needs."
+    },
+    {
+      "title": "Staff Of Tech Career And Issues Division",
+      "company": "HMIF Tech",
+      "period": "Apr 2020 – Apr 2021",
+      "duration": "1 year",
+      "location": "Bandung, West Java, Indonesia"
+    },
+    {
+      "title": "Staff Of Tech Career And Development Division",
+      "company": "HMIF Tech",
+      "period": "Oct 2019 – Mar 2020",
+      "duration": "5 months",
+      "location": "Bandung, West Java, Indonesia",
+      "description": "Organizing tech events and products, such as podcast and workshops."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Pinhome",
+      "period": "Jan 2021 – Mar 2021",
+      "duration": "2 months",
+      "location": "Jakarta, Indonesia",
+      "description": "Help internal organization processes by creating an internal content management system."
+    },
+    {
+      "title": "Staff Of IT",
+      "company": "ARKAVIDIA",
+      "period": "Sep 2020 – Mar 2021",
+      "duration": "6 months",
+      "location": "Bandung, West Java, Indonesia",
+      "description": "Success in delivering various features for Arkavidia web, like playing games, scoreboard, mailing, and checking out items with points."
+    },
+    {
+      "title": "Development Director Of Anmategra, Ministry Of Special Cadre Development And Data Collection",
+      "company": "Kabinet KM ITB",
+      "period": "Aug 2020 – Mar 2021",
+      "duration": "7 months",
+      "location": "Bandung, West Java, Indonesia",
+      "description": "Success in delivering a web application for student data collection by leading a team of six people, formulate the requirements to features, and taking part in the implementation."
+    },
+    {
+      "title": "Fullstack Web Programmer",
+      "company": "Agate International",
+      "period": "Jun 2020 – Aug 2020",
+      "duration": "2 months",
+      "location": "Bandung, West Java, Indonesia",
+      "description": "Improving skills by creating a RESTful Web App with ASP .NET Core. In the App, I implement authentication, localization-globalization, middlewares, OData Protocol, design view with bootstrap, and also documenting the API with Swagger."
+    },
+    {
+      "title": "Deputy Head Of Data Center Division",
+      "company": "P3RI Salman ITB",
+      "period": "Dec 2019 – Jul 2020",
+      "duration": "7 months",
+      "location": "Bandung, West Java, Indonesia"
+    },
+    {
+      "title": "Committee Of Capture The Flag (CTF) Competition",
+      "company": "ARKAVIDIA",
+      "period": "Nov 2019 – Feb 2020",
+      "duration": "3 months",
+      "location": "Bandung Area, West Java, Indonesia",
+      "description": "Help to organize the event, test the competition's platform, and create a rule book for this competition."
+    },
+    {
+      "title": "Staff Of IT Division",
+      "company": "TechoEntreperenur Club (TEC) Internship 2019",
+      "period": "Jul 2019 – Sep 2019",
+      "duration": "2 months",
+      "location": "Bandung Area, West Java, Indonesia",
+      "description": "Success in supporting various event agendas and data collection of the TEC Internship by creating IT-based stuff, such as forms and databases."
+    },
+    {
+      "title": "Instructor",
+      "company": "Kementerian Agama Republik Indonesia",
+      "period": "Jun 2019 – Jun 2019",
+      "location": "Tangsel, Banten, Indonesia",
+      "description": "Help and facilitate national olympic' students from Madrasah in Indonesia to learn by teaching and sharing my knowledge in astronomy and astrophysics at National Olympiad (OSN)."
+    }
+  ],
+  "education": [
+    {
+      "degree": "S1, Informatics Engineering",
+      "institution": "Institut Teknologi Bandung",
+      "period": "2018 – 2022",
+      "location": "Bandung, West Java, ID"
+    },
+    {
+      "degree": "High School, Science",
+      "institution": "MAN Insan Cendekia Serpong",
+      "period": "2015 – 2018"
+    }
+  ],
+  "skills": [
+    "microservices",
+    "devops",
+    "github",
+    "software",
+    "git",
+    "javascript",
+    "laboratory",
+    "director",
+    "web development",
+    "machine learning",
+    "problem solving",
+    "distributed systems",
+    "software development",
+    "data center",
+    "data collection",
+    "career development"
+  ],
+  "certifications": [
+    {
+      "name": "Docker Course for Beginners",
+      "issuer": "EdYoda Digital University",
+      "issued": "May 2021",
+      "url": "https://udemy.com/certificate/UC-06eb7b51-3e60-4d15-86e3-aaec11d91abe"
+    },
+    {
+      "name": "The Complete Front-End Web Development Course",
+      "issuer": "EdYoda Digital University",
+      "issued": "May 2021",
+      "url": "https://udemy.com/certificate/UC-1504c31a-1ee9-4f62-81a9-747436897217"
+    },
+    {
+      "name": "ICPCID",
+      "issuer": "ICPC - International Collegiate Programming Contest",
+      "issued": "Nov 2020",
+      "url": "https://icpc.global/ICPCID/V2PPTT16N99G"
+    },
+    {
+      "name": "Pelatihan Nasional Tahap III",
+      "issuer": "Kementerian Pendidikan dan Kebudayaan",
+      "issued": "Aug 2018"
+    },
+    {
+      "name": "Belajar Dasar Visualisasi Data",
+      "issuer": "Dicoding Indonesia",
+      "issued": "May 2021",
+      "expires": "May 2024",
+      "url": "https://dicoding.com/certificates/N9ZODR40DPG5"
+    },
+    {
+      "name": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+      "issuer": "Dicoding Indonesia",
+      "issued": "Apr 2021",
+      "expires": "Apr 2024",
+      "url": "https://dicoding.com/certificates/L4PQMWJV7ZO1"
+    },
+    {
+      "name": "Belajar Membuat Aplikasi Flutter untuk Pemula",
+      "issuer": "Dicoding Indonesia",
+      "issued": "Feb 2021",
+      "expires": "Feb 2024",
+      "url": "https://dicoding.com/certificates/0LZ0D6JQ3X65"
+    },
+    {
+      "name": "Belajar Machine Learning untuk Pemula",
+      "issuer": "Dicoding Indonesia",
+      "issued": "Nov 2020",
+      "expires": "Nov 2023",
+      "url": "https://dicoding.com/certificates/72ZD293N6ZYW"
+    },
+    {
+      "name": "Memulai Pemrograman Dengan Python",
+      "issuer": "Dicoding Indonesia",
+      "issued": "Apr 2020",
+      "expires": "Apr 2023",
+      "url": "https://dicoding.com/certificates/KEXL49WRMXG2"
+    },
+    {
+      "name": "Belajar Dasar Pemrograman Web",
+      "issuer": "Dicoding Indonesia",
+      "issued": "Sep 2019",
+      "expires": "Sep 2022",
+      "url": "https://dicoding.com/certificates/GRX5G917RX0M"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Earley Algorithm as Evaluator for the Correctness of Language Expression",
+      "date": "May 1, 2020",
+      "description": "The usage of Earley's algorithm as one way to validate the expression of a language.",
+      "url": "https://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2019-2020/Makalah/stima2020k2-004.pdf"
+    },
+    {
+      "title": "Penggunaan Algoritma Edmonds-Karp dalam Mencari Debit Air Maksimum dari Sistem Kanal Bawah Tanah",
+      "date": "December 4, 2019",
+      "description": "The usage of the maxflow algorithm using the Edmonds-Karp approach to find the debit of the underground canal.",
+      "url": "https://informatika.stei.itb.ac.id/~rinaldi.munir/Matdis/2019-2020/Makalah2019/13518146.pdf"
+    },
+    {
+      "title": "Worker Balancing Implementation on DRAGON Scheduler for Distributed Deep Learning in Kubernetes",
+      "date": "",
+      "description": "Deep learning is a subset of machine learning that usually has more computation and uses a bigger dataset. The data size and model complexity that is used by deep learning itself tends to increase over time. This leads to an increase in training duration. One method to solve this issue is to use distributed deep learning to divide computation loads among several machines. One method to do distributed deep learning is by using DRAGON scheduler that adapts parameter server architecture by implementing it on Kubernetes and Tensorflow. DRAGON scheduler is developed from the tf-operator controller in Kubeflow and has some advantages such as locality-aware placement and load-aware scaling. Unfortunately, such features still do not address parameter server limitations well, which makes scaling on training jobs with a high number of workers is not effective. So, to avoid this limitation, a worker-balancing approach is used. By implementing this approach, the training duration of the DRAGON scheduler can be reduced to 16.31% compared to the original without reducing its prediction accuracy. Show less"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Algorithm & Data Structure",
+      "code": "IF2110"
+    },
+    {
+      "name": "Algorithm Strategies",
+      "code": "IF2211"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "code": "IF3170"
+    },
+    {
+      "name": "Computational Logic",
+      "code": "IF2121"
+    },
+    {
+      "name": "Computer Graphics",
+      "code": "IF3260"
+    },
+    {
+      "name": "Computer Networks",
+      "code": "IF3130"
+    },
+    {
+      "name": "Computer Organization and Architecture",
+      "code": "IF2130"
+    },
+    {
+      "name": "Database",
+      "code": "IF2240"
+    },
+    {
+      "name": "Database Management",
+      "code": "IF3140"
+    },
+    {
+      "name": "Discrete Mathematics",
+      "code": "IF2120"
+    },
+    {
+      "name": "Distributed Application Development",
+      "code": "IF4031"
+    },
+    {
+      "name": "Formal Language Theory and Automata",
+      "code": "IF2124"
+    },
+    {
+      "name": "Geometric and Linear Algebra",
+      "code": "IF2123"
+    },
+    {
+      "name": "Human Computer Interaction",
+      "code": "IF3151"
+    },
+    {
+      "name": "Information System",
+      "code": "IF3141"
+    },
+    {
+      "name": "Machine Learning",
+      "code": "IF3270"
+    },
+    {
+      "name": "Modeling and Simulation",
+      "code": "IF4021"
+    },
+    {
+      "name": "Natural Language Processing",
+      "code": "IF4072"
+    },
+    {
+      "name": "Object Oriented Programming",
+      "code": "IF2210"
+    },
+    {
+      "name": "Operating System",
+      "code": "IF2230"
+    },
+    {
+      "name": "Parallel and Distributed Systems",
+      "code": "IF3230"
+    },
+    {
+      "name": "Platform-based Application Development",
+      "code": "IF3210"
+    },
+    {
+      "name": "Probability and Statistics",
+      "code": "IF2220"
+    },
+    {
+      "name": "Programming Fundamentals",
+      "code": "IF1210"
+    },
+    {
+      "name": "Socio-informatics and Professionalism",
+      "code": "IF3280"
+    },
+    {
+      "name": "Software Engineering",
+      "code": "IF2250"
+    },
+    {
+      "name": "Software Project",
+      "code": "IF3250"
+    },
+    {
+      "name": "Software Project Management",
+      "code": "IF3150"
+    },
+    {
+      "name": "Web based Application Development",
+      "code": "IF3110"
+    }
+  ],
+  "awards": [
+    {
+      "title": "[National] Top 20 Winner Kalibrr CodeFest 2022",
+      "issuer": "Kalibrr",
+      "year": "2022",
+      "description": "Selected as one of 20 winners of programming competition from Kalibrr after competing with tens of thousands of participants."
+    },
+    {
+      "title": "[National] Silver-Tiered Coder Indonesian Young Coder League (IYCL) Vol. 2 2021",
+      "issuer": "Mekari X Money Forward",
+      "year": "2021",
+      "description": "IYCL (Indonesian Young Coder League) is a competition for young engineers to show off and prove their coding skills with others from around Indonesia. IYCL believe that competition helps drive innovation: that's why IYCL will provide the platform for young engineers to push each other beyond their limits through the 4 stages of its competition. Personally, I got 19th place from all participants."
+    },
+    {
+      "title": "[Regional] Finalist ACM ICPC Asia Jakarta Regional Contest 2021",
+      "issuer": "ICPC (International Collegiate Programming Contest) Foundation",
+      "year": "2021",
+      "description": "International Collegiate Programming Contest is an annual multi-tiered computer programming competition among the universities of the world. Headquartered at Baylor University, with autonomous regions on six continents. The contest involves a global network of universities hosting regional competitions that advance teams to the ICPC World Finals. Participation has grown to several tens of thousands of the finest students and faculty in computing disciplines at almost 2,000 universities from over 80 countries on six continents. The contest fosters creativity, teamwork, and innovation in building new software programs, and enables students to test their ability to perform under pressure. Quite simply, it is the oldest, largest, and most prestigious programming contest in the world. Qualified after placed 9th out of about 600 teams at the national qualifier (Indonesia National Contest), and got 33th on Asia-Pasific Jakarta Region. Show less"
+    },
+    {
+      "title": "[International] Top 200 Global and 9th Place National, IEEExtreme 15.0 Programming Competition",
+      "issuer": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "year": "2021",
+      "description": "IEEEXtreme is a global challenge in which teams of student members compete in a 24-hour time span against each other to solve a set of programming problems. It is an International programming competition for college students attended by 12.900+ participants all-over the world. My team managed to get rank 156th Worldwide from 5561 teams and 9th Nationally."
+    },
+    {
+      "title": "[Campus] 3rd place Pra-Gemastik Programming Competiton",
+      "issuer": "Institut Teknologi Bandung",
+      "year": "2021",
+      "description": "3rd place at competitive programming competition in campus level at Institut Teknologi bandung"
+    },
+    {
+      "title": "[National] 3rd place IFest Programming Competition 2021",
+      "issuer": "Universitas Atma Jaya Yogyakarta",
+      "year": "2021",
+      "description": "3rd place from dozens of teams in national competitive programming competition IFest. Held by Universitas Atma Jaya Yogyakarta."
+    },
+    {
+      "title": "[Campus] Candidate of Informatics Best Students 2020",
+      "issuer": "ITB Informatics Undergraduate Study Program",
+      "year": "2021",
+      "description": "Selected as Candidate of Most Outstanding Student in Informatics Major ITB. Chosen based on academics, non-academics, innovation, and communication skills."
+    },
+    {
+      "title": "[National] Silver-Tiered Coder Indonesian Young Coder League (IYCL) 2021",
+      "issuer": "Mekari x Money Forward",
+      "year": "2021",
+      "description": "IYCL (Indonesian Young Coder League) is a competition for young engineers to show off and prove their coding skills with others from around Indonesia. IYCL believe that competition helps drive innovation: that's why IYCL will provide the platform for young engineers to push each other beyond their limits through the 4 stages of its competition. Personally, I got 17th place from about 1000 participants."
+    },
+    {
+      "title": "[Regional] Finalist ACM ICPC Asia Jakarta Regional Contest 2020",
+      "issuer": "ICPC Foundation",
+      "year": "2020",
+      "description": "International Collegiate Programming Contest is an annual multi-tiered computer programming competition among the universities of the world. Headquartered at Baylor University, with autonomous regions on six continents. The contest involves a global network of universities hosting regional competitions that advance teams to the ICPC World Finals. Participation has grown to several tens of thousands of the finest students and faculty in computing disciplines at almost 2,000 universities from over 80 countries on six continents. The contest fosters creativity, teamwork, and innovation in building new software programs, and enables students to test their ability to perform under pressure. Quite simply, it is the oldest, largest, and most prestigious programming contest in the world. Qualified after placed 21th out of 600 participants at the national qualifier (Indonesia National Contest) Show less"
+    },
+    {
+      "title": "[National] 9th Place, Shopee National Data Science Challenge 2020",
+      "issuer": "Shopee Indonesia",
+      "year": "2020",
+      "description": "9th place out of 150+ teams at national level data science competition"
+    },
+    {
+      "title": "[International] Top 200 Global and 6th Place National, IEEExtreme 14.0 Programming Competition",
+      "issuer": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "year": "2020",
+      "description": "IEEEXtreme is a global challenge in which teams of student members compete in a 24-hour time span against each other to solve a set of programming problems. It is an International programming competition for college students attended by 7.300+ participants all-over the world. My team managed to get rank 196th Worldwide from 3701 teams and 6th Nationally."
+    },
+    {
+      "title": "[Campus | International] Top 10 Finalists Hult Prize at ITB",
+      "issuer": "Hult Prize Foundation",
+      "year": "2019",
+      "description": "Top 10 in ITB qualification rounds to get ticket to compete abroad, a competition Hult Prize Foundation, in collaboration with the United Nations to design a business plan and solve environmental problems, so we try to solve it with our apps, SociEnvi, platform that give place for collaboration among environmental projects organizer, volunteers, individual funders, and also companies."
+    },
+    {
+      "title": "[National] Top 11, Slashroot CTF (Capture the Flag)",
+      "issuer": "STIKOM Bali",
+      "year": "2019",
+      "description": "Top 11 from about 30 teams from different universities, competition in Jeopardy format CTF Competition, which is find vulnerabilities of system to exploit, from ranging from web exploitation, cryptography, until forensics."
+    },
+    {
+      "title": "[National] Top 8 Finalists, Competitive Programming Techphoria",
+      "issuer": "Universitas Sriwijaya",
+      "year": "2019",
+      "description": "5th place in semifinal from about 20 teams from universities all-around Indonesia in Competitive Programming Competition, which focusing on problem solving skills with algorithms, data structures, to obtain time and memory efficiency."
+    },
+    {
+      "title": "[National] Gold Medal Olimpiade Sains Nasional (OSN) Astronomi",
+      "issuer": "Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture Republic of Indonesia)",
+      "year": "2017",
+      "description": "Biggest annual science competition in Indonesia that held by Ministry of Educational Affair RI, getting 4th place beyond other thousands of participants all around Indonesia."
+    },
+    {
+      "title": "[National] Finalist Olimpiade Sains Nasional (OSN) Astronomi",
+      "issuer": "Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture Republic of Indonesia)",
+      "year": "2016",
+      "description": "Biggest annual science competition in Indonesia that held by Ministry of Educational Affair RI, getting top 80 finalists beyond other thousands of participants all around Indonesia."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Question Classifier WebApp",
+      "period": "Nov 2021 – Nov 2021",
+      "description": "Web application prototype for Quora-like application, that implements grammar corrector, question similarity checker, and topic classification using Deep Learning system, and saving question data into the database. Created using Django backend and Model trained using TensorFlow and Transformers (BERT).",
+      "url": "https://github.com/primayoriko/question-classifier-webapp"
+    },
+    {
+      "name": "Resto App (Backend)",
+      "period": "Feb 2021 – Jul 2021",
+      "description": "The backend of the Resto Application is capable of doing menu transactions and management of restaurant systems by using Java language + Spring Framework (with Spring Boot) and PostgreSQL database.",
+      "url": "https://github.com/primayoriko/resto-app-backend"
+    },
+    {
+      "name": "Note App",
+      "period": "May 2021 – Jun 2021",
+      "description": "An android-based app that is written in Kotlin to write your notes, categorize them into some categories, and also classify them into favorite or not. These notes that you wrote are editable and deletable, too.",
+      "url": "https://github.com/primayoriko/android-note-app"
+    },
+    {
+      "name": "3D Model Animation Web",
+      "period": "Apr 2021 – Apr 2021",
+      "description": "A single-page application that uses WebGL in JavaScript to animate some 3D articulated models is Zebra, Crocodile, and Robot.",
+      "url": "https://github.com/primayoriko/webgl-animation-3d"
+    },
+    {
+      "name": "Sport App",
+      "period": "Apr 2021 – Apr 2021",
+      "description": "An android-based app with sport-related content that is capable of showing online news, shows a compass, tracking your training (steps, path, and distance) on Google Maps, saving the histories, and giving reminders on your schedule based on the Android platform.",
+      "url": "https://github.com/primayoriko/android-sport-app"
+    },
+    {
+      "name": "Anmategra",
+      "period": "Aug 2020 – Mar 2021",
+      "description": "Lead the team (about 6 people) to create website to store the track record of students in ITB, so every organization could access the data to make a better recruitment process for them. I also develop the backend of the website using node.js.",
+      "url": "https://anmategra.com/"
+    },
+    {
+      "name": "Golang Forum API",
+      "period": "Feb 2021 – Feb 2021",
+      "description": "An API for Forum application that was created with Go Language and capable of doing authenticated discussion system.",
+      "url": "https://github.com/primayoriko/golang-forum-api"
+    },
+    {
+      "name": "Tour Place App",
+      "period": "Jan 2021 – Feb 2021",
+      "description": "A multi-platform application of tourism attraction places that was created with Dart Language and Flutter.",
+      "url": "https://github.com/primayoriko/tour-place-app"
+    },
+    {
+      "name": "Willy Wangky Chocolate Online Shop",
+      "period": "Oct 2020 – Nov 2020",
+      "description": "A chocolate shop web application created with vanilla PHP, JavaScript, and CSS (also HTML). Capable of doing authentication of the user, CRUD items with images, checkout and buying items, list of past transactions, etc.",
+      "url": "https://github.com/primayoriko/choco-shop-web"
+    },
+    {
+      "name": "ASPNetCore Web App Template",
+      "period": "Aug 2020 – Aug 2020",
+      "description": "A template to start an ASP.NET Core project that is already structured into MVC web and uses the main features of ASP.NET Core itself.",
+      "url": "https://github.com/primayoriko/ASPNetCore-Template"
+    },
+    {
+      "name": "Sorting Animation Web",
+      "period": "Aug 2020 – Aug 2020",
+      "description": "A web app that generates animations of some sorting algorithm via the web application platform using React.js and plain CSS.",
+      "url": "https://github.com/primayoriko/Sorting-Animation-Web"
+    },
+    {
+      "name": "School System App",
+      "period": "Jun 2020 – Aug 2020",
+      "description": "A CRUD app that is based on many forms, they are Web MVC App and API App (normal REST API and OData protocol API). Created using ASP.NET Core in C# Language.",
+      "url": "https://github.com/primayoriko/aspnet-core-school-app"
+    },
+    {
+      "name": "Simple Sundanese Translator",
+      "period": "Jun 2020 – Jun 2020",
+      "description": "A web translator of Indonesia-Sunda and Sunda-Indonesia using various pattern matching algorithms that are implemented with vanilla front-end and back-end with Flask micro-framework.",
+      "url": "https://github.com/primayoriko/indo-sundanese-translator"
+    },
+    {
+      "name": "TextFile Search Engine",
+      "period": "Apr 2020 – Apr 2020",
+      "description": "A web-based news search engine from text file source using Boyer-Moore, KMP algorithm, and Regex that is implemented with Python and Flask Micro-framework.",
+      "url": "https://github.com/primayoriko/textfile-search-engine"
+    },
+    {
+      "name": "Calculator App",
+      "period": "Mar 2020 – Mar 2020",
+      "description": "A desktop-based calculator application that was created with Kotlin, GUI with TornadoFX, and package manager with Gradle.",
+      "url": "https://github.com/primayoriko/kotlin-calculator"
+    },
+    {
+      "name": "COVID-19 Spread Modeller App",
+      "period": "Feb 2020 – Mar 2020",
+      "description": "A desktop-based COVID-19 virus spread modeler application using a BFS graph model that was created using C# and WPF Form.",
+      "url": "https://github.com/primayoriko/COVID-19_SpreadModeller"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional working proficiency"
+    },
+    {
+      "language": "Indonesian",
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Arabic",
+      "proficiency": "Limited working proficiency"
+    }
+  ]
+}

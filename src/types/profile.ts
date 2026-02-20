@@ -49,6 +49,11 @@ export interface Certification {
   url?: string
 }
 
+export interface Course {
+  name: string
+  code: string
+}
+
 export interface ProfileData {
   name: string
   title: string
@@ -63,5 +68,6 @@ export interface ProfileData {
   projects: Project[]
   publications: Publication[]
   certifications: Certification[]
+  courses: Course[]
   languages: { language: string; proficiency: string }[]
 }

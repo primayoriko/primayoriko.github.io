@@ -180,6 +180,12 @@ export function useResumeExport() {
       }
     }
 
+    // Courses
+    if (profile.courses.length > 0) {
+      children.push(sectionHeading('Relevant Coursework'))
+      children.push(plainParagraph(profile.courses.map((c) => c.name).join(', ')))
+    }
+
     // Languages
     children.push(sectionHeading('Languages'))
     children.push(
@@ -294,6 +300,9 @@ export function useResumeExport() {
 
   <h2>Licenses & Certifications</h2>
   <ul>${certsHtml}</ul>
+
+  <h2>Relevant Coursework</h2>
+  <p>${profile.courses.map((c) => c.name).join(', ')}</p>
 
   <h2>Languages</h2>
   <p>${profile.languages.map((l) => `${l.language} (${l.proficiency})`).join(', ')}</p>

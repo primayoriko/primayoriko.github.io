@@ -11,6 +11,8 @@ const sections = [
   { id: 'projects', label: 'Projects' },
   { id: 'publications', label: 'Papers' },
   { id: 'certifications', label: 'Certs' },
+  { id: 'courses', label: 'Courses' },
+  { id: 'github', label: 'GitHub' },
 ]
 
 const isScrolled = ref(false)

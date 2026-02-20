@@ -3,10 +3,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    # Run twice weekly (Mon & Thu at 06:00 UTC) for redundancy.
+    # If Monday fails, Thursday provides a second chance within the same week.
+    - cron: '0 6 * * 1,4'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -15,8 +19,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -27,6 +34,31 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      - name: Fetch LinkedIn data (best-effort, multi-strategy)
+        run: |
+          echo "=== LinkedIn fetch: $(date -u) ==="
+          echo "Event: ${{ github.event_name }}"
+          bun scripts/fetch-linkedin.ts
+          echo "=== linkedin-data.json ==="
+          echo "Size: $(wc -c < public/linkedin-data.json) bytes"
+          echo "Sections: $(cat public/linkedin-data.json | grep -c '": ')"
+        continue-on-error: true
+
+      - name: Commit updated LinkedIn data
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          if git diff --quiet public/linkedin-data.json 2>/dev/null; then
+            echo "No changes to linkedin-data.json, skipping commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/linkedin-data.json
+            git commit -m "chore: auto-update LinkedIn profile data"
+            git push
+            echo "Committed and pushed updated LinkedIn data."
+          fi
+        continue-on-error: true
+
       - name: Build
         run: bun run build
 
@@ -35,13 +67,16 @@ jobs:
         with:
           path: dist
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Prevent GitHub from disabling this scheduled workflow after 60 days
+  # of repo inactivity. Uses GitHub API to re-enable — no dummy commits.
+  keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1

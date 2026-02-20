@@ -39,7 +39,7 @@ async function handleExport(format: 'pdf' | 'docx') {
 
     <transition
       enter-active-class="transition duration-150 ease-out"
-      enter-from-class="opacity-0 scale-95 -translate-y-1"
+      enter-from-class="opacity-0 scale-95 translate-y-1"
       enter-to-class="opacity-100 scale-100 translate-y-0"
       leave-active-class="transition duration-100 ease-in"
       leave-from-class="opacity-100 scale-100"
@@ -47,7 +47,7 @@ async function handleExport(format: 'pdf' | 'docx') {
     >
       <div
         v-if="open"
-        class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-44 bg-[#1a1a2e] border border-white/10 rounded-xl shadow-2xl overflow-hidden z-50"
+        class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-44 bg-[#1a1a2e] border border-white/10 rounded-xl shadow-2xl overflow-hidden z-50"
       >
         <button
           class="flex items-center gap-3 w-full px-4 py-3 text-sm text-white hover:bg-white/10 transition-colors"

@@ -11,6 +11,8 @@ const sections = [
   { id: 'projects', label: 'Projects' },
   { id: 'publications', label: 'Publications' },
   { id: 'certifications', label: 'Certifications' },
+  { id: 'courses', label: 'Courses' },
+  { id: 'github', label: 'GitHub' },
 ]
 
 const progress = ref(0)
