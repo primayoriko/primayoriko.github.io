@@ -21,9 +21,3 @@ bun run dev
 ```bash
 bun run build
 ```
-
-## Deployment
-
-Push to the `main` branch. GitHub Actions will automatically build and deploy to GitHub Pages.
-
-Make sure GitHub Pages is configured to deploy from **GitHub Actions** in your repository settings (Settings > Pages > Source > GitHub Actions).
